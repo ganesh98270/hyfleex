@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.border-text {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='12' ry='12' stroke='%23524FD5FF' stroke-width='1' stroke-dasharray='7' stroke-dashoffset='0' stroke-linecap='butt'/%3e%3c/svg%3e");
+    border-radius: 12px;
+}
+
+.bg-ellipes {
+    background-image: url("./assets/Ellipse.png");
+    background-repeat: no-repeat;
+    background-position: -109%, 0;
+}
+
+.green-border {
+    background: linear-gradient(127.12deg, #04B900 18.79%, rgba(4, 185, 0, 0) 71.54%);
+}
+
+.explore::before {
+    content: "";
+    position: absolute;
+    right: -34px;
+    top: 50%;
+    transform: translate(-11%, -50%);
+    background-color: #7077E4;
+    width: 30px;
+    height: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.explore::after {
+    content: "";
+    position: absolute;
+    right: -37px;
+    top: 50%;
+    transform: translate(-13%, -50%);
+    background-color: #adbbf48a;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.explore:hover {
+    color: blue;
+    transition: all 0.2s ease-in-out;
+}
+
+.explore:hover::after {
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    transform-origin: right;
+    border-radius: 0%;
+    right: 0;
+    top: 0;
+    transform: translate(0, 0);
+}
+
+
+.slick-slider .slick-list {
+    height: 196px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+table.rounded-corners {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 10px;
+    border: 1px solid #EAECF0;
+    overflow: hidden;
+}
+
+.border-top {
+    border-top: 1px solid #EAECF0;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .bg-ellipes {
+
+        background-position: -30% 0;
+    }
+}
+
+@media screen and (max-width: 1599px) {
+    .bg-ellipes {
+
+        background-position: -57% 0;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .bg-ellipes {
+        background-position: -94% 0px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .bg-ellipes {
+        background-position: 722% 0px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .bg-ellipes {
+        background-position: 434% 0px;
+    }
+
+    .slick-slider {
+        top: -20px !important;
+    }
+
+    .help {
+        padding: 0 1em !important;
+    }
+}
+
+
+@media screen and (max-width: 979px) {
+    .bg-ellipes {
+        background-position: 5% 0;
+    }
+
+    .navlinkes {
+        position: absolute;
+        left: -200%;
+        top: 0;
+        height: 100vh;
+        margin: 0;
+        background: white;
+        z-index: 20;
+        flex-direction: column;
+        width: 320px;
+        align-items: start;
+        padding: 1em;
+        transition: all 0.2s ease-in-out;
+    }
+
+    .navlinkes.active {
+        left: 0;
+        transition: all 0.2s ease-in-out;
+
+    }
+}
+
+
+
+@media screen and (max-width: 639px) {
+    .full-width {
+        width: 100% !important;
+    }
+}
