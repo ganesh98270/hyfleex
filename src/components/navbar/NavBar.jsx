@@ -16,15 +16,14 @@ const NavBar = () => {
 
           {/* navigation bar */}
           <div
-            className={` navlinkes flex ${
-              toggle && "active"
-            } items-center mt-4`}
+            className={` navlinkes flex ${toggle && "active"
+              } items-center mt-6`}
           >
-            <p className="mx-3 text-grey cursor-pointer">About us</p>
-            <p className="mx-3 text-grey cursor-pointer">Courses</p>
-            <p className="mx-3 text-grey cursor-pointer">Teachers</p>
-            <p className="mx-3 text-grey cursor-pointer">Careers</p>
-            <p className="mx-3 text-grey cursor-pointer">Contact</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Courses</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">About us</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Teachers</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Careers</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Contact</p>
           </div>
 
           {/* enrool */}

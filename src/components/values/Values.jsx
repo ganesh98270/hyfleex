@@ -9,7 +9,7 @@ const Values = () => {
         <p className="font-kalam text-[20px] font-normal text-lightGrey">
           Why choose us
         </p>
-        <h3 className="text-[40px] font-semibold">Our Values</h3>
+        <h3 className="text-[30px] font-semibold">Our Values</h3>
       </div>
 
       <div className="flex gap-6 flex-wrap justify-center items-center mt-16">
@@ -43,17 +43,17 @@ export default Values;
 
 const Card = ({ image, heading, para }) => {
   return (
-    <div className="flex w-[28%]  h-[300px] flex-col justify-center items-center p-3 hover:shadow-2xl hover:shadow-lightBlue lg:w-[45%] full-width">
+    <div className="flex w-[28%]  h-[300px] flex-col justify-center items-center p-3 hover:shadow-3xl hover:shadow-[#7077e45e] lg:w-[45%] full-width">
       <div className="glass-image">
         <img src={image} alt="" />
       </div>
 
       <div className="card-heading mt-10">
-        <p className="text-2xl font-medium">{heading}</p>
+        <p className="text-2xl font-semibold">{heading}</p>
       </div>
 
       <div className="paragraph my-3">
-        <p className="text-grey font-normal text-center">{para}</p>
+        <p className="text-grey text-sm font-normal text-center">{para}</p>
       </div>
     </div>
   );

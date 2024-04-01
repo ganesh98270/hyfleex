@@ -9,17 +9,17 @@ const MainSection = () => {
       <div className="flex xmd:block xl:p-6 padding-0">
         <div className="w-1/2 xmd:w-full">
           <div>
-            <h1 className="text-[52px] font-playfair ps-2 sm:text-[35px]">
+            <h1 className="text-[52px] leading-[56px] font-playfair ps-2 sm:text-[35px]">
               Become Fluent in
             </h1>
-            <h1 className="text-[52px] text-lightBlue leading-[58px] rounded-lg py-2 px-3 pt-0 border-text font-playfair w-max sm:text-[35px]">
+            <h1 className="text-[52px] leading-[56px] text-lightBlue rounded-lg py-2 px-3 pt-0 border-text font-playfair w-max sm:text-[35px]">
               Foreign Language
             </h1>
-            <h1 className=" text-[52px] font-playfair ps-2 sm:text-[35px]">
+            <h1 className=" text-[52px] leading-[56px] font-playfair ps-2 sm:text-[35px]">
               with Hyfleex
             </h1>
 
-            <p className="text-grey px-2">
+            <p className="text-grey px-2 mt-4">
               Discover Spanish, German, English, IELTS, Japanese, and more
               languages <br /> with Hyfleex. Break barriers, build
               connections—start your multilingual <br /> journey!

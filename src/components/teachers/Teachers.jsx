@@ -68,7 +68,7 @@ const Teachers = () => {
           <h3 className="text-[30px] font-semibold">Meet our teachers</h3>
         </div>
 
-        <div className="mt-6">
+        <div className="mt-6 w-full">
           <Slider {...settings}>
             <div>
               <img

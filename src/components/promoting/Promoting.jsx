@@ -30,7 +30,7 @@ const Promoting = () => {
                 through language and culture.
               </h3>
 
-              <p className="mt-4 text-md font-normal text-grey">
+              <p className="mt-4 text-md font-normal text-grey pe-4">
                 The mission of Hyfleex is to provide students with the
                 opportunity to learn about different languages and cultures. The
                 classes aim to promote an understanding and appreciation of the

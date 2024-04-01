@@ -21,7 +21,7 @@ const Contect = () => {
         <p className="text-center text-grey">
           Have questions, inquiries, or just want to connect? Reach out to us
           through the contact information below. Our dedicated team is here to{" "}
-          <br />
+          <br className="sm:hidden" />
           assist you and ensure you have the information you need. We look
           forward to hearing from you!
         </p>
@@ -125,7 +125,7 @@ const Contect = () => {
           </div>
 
           <div className="mt-4">
-            <p className="text-grey">Find Our Office Easily</p>
+            <p className="text-grey italic">Find Our Office Easily</p>
             <img src={Map} alt="" className="rounded-lg" />
           </div>
         </div>

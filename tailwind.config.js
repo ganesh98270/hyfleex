@@ -6,20 +6,24 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        '3xl': ' 0px 0px 40px 0px #ACCDFF66',
+      },
       container: {
         // default breakpoints but with 40px removed
+        padding: '1em',
         screens: {
           'sm': '600px',
           'md': '728px',
           'lg': '984px',
           'xl': '1240px',
-          '2xl': '1496px',
+          '2xl': '1886px',
         },
       },
       colors: {
         'grey': '#666680',
         'pink': '#fdf2fb',
-        'lightPink': '#EAECF0',
+        'lightPink': 'f9fafb',
         'lightBlue': '#524FD5',
         'lightBlueTow': '#7077E4',
         'lightGrey': '#B0B0C0',

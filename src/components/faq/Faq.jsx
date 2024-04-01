@@ -33,13 +33,12 @@ const Faq = () => {
 
 export default Faq;
 
-const Question = ({}) => {
+const Question = ({ }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <div
-      className={`${
-        toggle ? "bg-color py-6" : "bg-hide py-3"
-      } mb-3  border rounded-[25px] px-8 sm:px-6 `}
+      className={`${toggle ? "bg-color py-6" : "bg-hide py-3"
+        } mb-3  border rounded-[25px] px-8 sm:px-6 `}
     >
       <div
         onClick={() => setToggle(!toggle)}
@@ -50,11 +49,11 @@ const Question = ({}) => {
         </p>
 
         {toggle ? (
-          <div className="sm:pt-[2px] flex justify-center text-lightBlueTow leading-[0px] items-center bg-white h-[20px] w-[20px] rounded-full">
+          <div className="sm:pt-[2px] flex justify-center text-lightBlueTow leading-[1px] items-center bg-white h-[20px] w-[20px] rounded-full">
             -
           </div>
         ) : (
-          <div className="sm:pt-[2px] flex justify-center text-white leading-[0px] items-center bg-lightBlueTow h-[20px] w-[20px] rounded-full">
+          <div className="sm:pt-[2px] flex justify-center text-white leading-[1px] items-center bg-lightBlueTow h-[20px] w-[20px] rounded-full">
             +
           </div>
         )}
