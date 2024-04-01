@@ -1,6 +1,12 @@
+import Contect from "./components/contect/Contect";
 import ExploreCourse from "./components/exploreCourse/ExploreCourse";
+import Faq from "./components/faq/Faq";
+import Footer from "./components/footer/Footer";
 import MainSection from "./components/mainSection/MainSection";
 import NavBar from "./components/navbar/NavBar";
+import Promoting from "./components/promoting/Promoting";
+import Teachers from "./components/teachers/Teachers";
+import Testimonials from "./components/testimonials/Testimonials";
 
 import Values from "./components/values/Values";
 
@@ -14,7 +20,6 @@ const App = () => {
           <div className="bg-ellipes pb-24">
             <NavBar />
             <MainSection />
-            <p>sdfsdfsdfsd</p>
           </div>
         </div>
 
@@ -28,6 +33,30 @@ const App = () => {
       <section>
         <ExploreCourse />
       </section>
+
+      <section>
+        <Promoting />
+      </section>
+
+      <section>
+        <Teachers />
+      </section>
+
+      <section>
+        <Testimonials />
+      </section>
+
+      <section>
+        <Faq />
+      </section>
+
+      <section>
+        <Contect />
+      </section>
+
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
