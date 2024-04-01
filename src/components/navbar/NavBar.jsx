@@ -19,16 +19,16 @@ const NavBar = () => {
             className={` navlinkes flex ${toggle && "active"
               } items-center mt-6`}
           >
-            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Courses</p>
-            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">About us</p>
-            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Teachers</p>
-            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Careers</p>
-            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue">Contact</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue hover:underline hover:underline-offset-4">Courses</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue hover:underline hover:underline-offset-4">About us</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue hover:underline hover:underline-offset-4">Teachers</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue hover:underline hover:underline-offset-4">Careers</p>
+            <p className="mx-3 text-grey cursor-pointer text-[13px] hover:text-lightBlue hover:underline hover:underline-offset-4">Contact</p>
           </div>
 
           {/* enrool */}
           <div className="green-border p-[1px] rounded-full overflow-hidden mt-4">
-            <button className="border-none sm:hidden outline-none py-2 px-4 font-medium bg-white  rounded-full overflow-hidden text-sm">
+            <button className="border-none sm:hidden outline-none py-2 px-4 font-medium bg-white hover:bg-transparent transition-all duration-300  rounded-full overflow-hidden text-sm">
               Enroll now
             </button>
           </div>

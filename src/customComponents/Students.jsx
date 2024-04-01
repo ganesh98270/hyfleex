@@ -8,7 +8,7 @@ const Students = (Student) => {
             <div className="absolute left-[50%] top-[-20px] translate-x-[-50%]">
                 <img className="h-[50px] w-[50px]" src={Student.Student} alt="" />
             </div>
-            <p className="my-2 text-nowrap">Rucha Kulkarni</p>
+            <p className="my-2 text-nowrap text-center">Rucha Kulkarni</p>
             <div className="flex justify-center items-center gap-1">
                 <img className="h-[18px] w-[18px]" src={GoogleIcon} alt="" />
                 <img className="h-[15px] w-[55px]" src={Stars} alt="" />

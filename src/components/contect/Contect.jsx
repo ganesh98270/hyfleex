@@ -28,19 +28,20 @@ const Contect = () => {
       </div>
 
       <div className="flex flex-wrap gap-16 xl:gap-10 mt-10 px-6 sm:px-0">
-        <div className="border rounded-xl px-6 py-8 w-[47%] xmd:w-full">
+        <div className="border border-shado relative rounded-xl px-6 py-8 w-[47%] xmd:w-full">
+          <div className="line"></div>
           <div className="input flex gap-3 flex-col mt-5">
             <label htmlFor="">Name*</label>
             <input
               type="text"
-              className="outline-nonde border-b-2 border-[black]"
+              className="input-group outline-nonde border-b-2 border-[black]"
             />
           </div>
           <div className="input flex gap-3 flex-col mt-5">
             <label htmlFor="">Email*</label>
             <input
               type="email"
-              className="outline-nonde border-b-2 border-[black]"
+              className="input-group outline-nonde border-b-2 border-[black]"
             />
           </div>
           <div className="flex gap-3 flex-col mt-5 border-b-2 border-[black] pb-1">
@@ -77,12 +78,12 @@ const Contect = () => {
             <label htmlFor="">Message*</label>
             <input
               type="text"
-              className="outline-nonde border-b-2 border-[black]"
+              className="input-group outline-nonde border-b-2 border-[black]"
             />
           </div>
 
           <div className="flex justify-end mt-5">
-            <button className="send-button border-lightBlue py-3 px-4 pe-16 rounded-3xl relative flex items-center">
+            <button className="send-button font-light border-lightBlue py-3 px-4 pe-16 rounded-3xl relative flex items-center">
               Send Message
             </button>
           </div>
@@ -100,7 +101,7 @@ const Contect = () => {
             Rd, opp. Model Colony, Nashik, Maharashtra 422005
           </p>
 
-          <div className="flex justify-between items-center mt-4">
+          <div className="flex flex-wrap gap-4 justify-between items-center mt-4">
             <div>
               <div className="flex gap-3 items-center">
                 <span className="bg-[#CCD7F9] rounded p-1">
@@ -126,7 +127,7 @@ const Contect = () => {
 
           <div className="mt-4">
             <p className="text-grey italic">Find Our Office Easily</p>
-            <img src={Map} alt="" className="rounded-lg" />
+            <img src={Map} alt="" className="rounded-lg h-[306px] w-full" />
           </div>
         </div>
       </div>

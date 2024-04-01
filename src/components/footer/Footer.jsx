@@ -18,20 +18,20 @@ const Footer = () => {
           </div>
 
           <div className="links flex items-center gap-3">
-            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue">Careers</p>
-            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue">Teachers</p>
-            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue">Support</p>
-            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue">Contact</p>
+            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue  hover:underline hover:underline-offset-4">Careers</p>
+            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue  hover:underline hover:underline-offset-4">Teachers</p>
+            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue  hover:underline hover:underline-offset-4">Support</p>
+            <p className="text-grey text-sm cursor-pointer hover:text-lightBlue  hover:underline hover:underline-offset-4">Contact</p>
           </div>
 
           <div className="links flex items-center gap-4">
-            <div className="rounded-full cursor-pointer border h-[35px] w-[35px] flex justify-center items-center hover:bg-lightBlue hover:text-white">
+            <div className="rounded-full cursor-pointer border h-[35px] w-[35px] flex justify-center items-center hover:bg-lightBlue hover:text-white transition-all duration-300">
               <BiLogoFacebook />
             </div>
-            <div className="rounded-full cursor-pointer border h-[35px] w-[35px] flex justify-center items-center hover:bg-lightBlue hover:text-white">
+            <div className="rounded-full cursor-pointer border h-[35px] w-[35px] flex justify-center items-center hover:bg-lightBlue hover:text-white transition-all duration-300">
               <BiLogoTwitter />
             </div>
-            <div className="rounded-full cursor-pointer border h-[35px] w-[35px] flex justify-center items-center hover:bg-lightBlue hover:text-white">
+            <div className="rounded-full cursor-pointer border h-[35px] w-[35px] flex justify-center items-center hover:bg-lightBlue hover:text-white transition-all duration-300">
               <FaInstagram />
             </div>
           </div>

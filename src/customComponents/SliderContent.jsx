@@ -22,6 +22,13 @@ const SliderContent = () => {
           slidesToScroll: 2,
         },
       },
+      {
+        breakpoint: 365,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
     ],
   };
 
@@ -37,7 +44,7 @@ const SliderContent = () => {
         Achieve their goals
       </p>
 
-      <div className="w-[482px] md:w-[326px] h-[144px] absolute lg:relative right-28 xl:right-[4.5em] right-zero top-[-106px] lg:top-[-35px] ">
+      <div className="w-[482px] md:w-[326px] full-width h-[144px] absolute lg:relative right-28 xl:right-[4.5em] right-zero top-[-106px] lg:top-[-35px] ">
         <Slider {...settings}>
           <Students Student={Student} />
           <Students Student={Student} />
@@ -53,12 +60,4 @@ const SliderContent = () => {
 
 export default SliderContent;
 
-{
-  /* <div className="relative">
-    <div className="absolute xmd:static right-32 xl:right-20 top-[-31px] flex justify-center items-center gap-3">
-        <Students Student={Student} />
-        <Students Student={Student} />
-        <Students Student={Student} />
-    </div>
-</div>; */
-}
+

@@ -23,7 +23,7 @@ export default {
       colors: {
         'grey': '#666680',
         'pink': '#fdf2fb',
-        'lightPink': 'f9fafb',
+        'lightPink': '#f9fafb',
         'lightBlue': '#524FD5',
         'lightBlueTow': '#7077E4',
         'lightGrey': '#B0B0C0',

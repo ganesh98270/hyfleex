@@ -47,7 +47,7 @@ export default Testimonials;
 
 const Card = ({ letter, heading, para }) => {
   return (
-    <div className="testimonial-card w-[33%] md-w-full lg:w-[48%] full-width border border-[#F0F3FD] opacity-50 rounded-[36px] p-6 hover:opacity-100 hover:shadow-3xl">
+    <div className="testimonial-card transition-all duration-300 w-[33%] md-w-full lg:w-[48%] full-width border border-[#F0F3FD] opacity-50 rounded-[36px] p-6 hover:opacity-100 hover:shadow-3xl">
       <div className="testimonial flex justify-between items-center gap-3">
         <div className="letter-box flex items-center gap-4">
           <p className="letter flex justify-center items-center text-white h-[50px] w-[50px] rounded-full bg-[#7077E4]">

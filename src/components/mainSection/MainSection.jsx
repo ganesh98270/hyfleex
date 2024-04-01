@@ -26,7 +26,7 @@ const MainSection = () => {
             </p>
           </div>
 
-          <button className="explore flex itmes-center gap-3 relative text-lightBlue font-medium  p-2 my-5">
+          <button className="explore flex itmes-center gap-3 relative text-lightBlue font-semibold  p-2 my-5">
             Explore courses
           </button>
 

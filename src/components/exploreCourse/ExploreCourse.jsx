@@ -48,7 +48,7 @@ const ExploreCourse = () => {
                                     className={`flex items-center text-sm text-nowrap gap-1 border ${active === item.language
                                         ? "border-lightBlue boxshadow-down"
                                         : "border-greyBorder"
-                                        } rounded-md px-3 py-1`}
+                                        } rounded-md px-3 py-1 hover:border-lightBlue hover-boxshadow-down`}
                                 >
                                     <img className="w-[20px] h-[20px]" src={item.image} alt="" />
                                     {item.language}
@@ -56,8 +56,8 @@ const ExploreCourse = () => {
                             ))}
                         </div>
 
-                        <div style={{ overflowX: "auto" }} className="table w-full mt-6">
-                            <table className="border w-full rounded-corners">
+                        <div className="table w-full mt-6 overflow-hidden">
+                            <table className="border w-full rounded-corners overflow-hidden">
                                 <thead>
                                     <tr className="bg-lightPink">
                                         <td className="py-2 px-6 text-grey font-medium text-sm flex items-center gap-2">

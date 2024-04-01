@@ -43,7 +43,7 @@ export default Values;
 
 const Card = ({ image, heading, para }) => {
   return (
-    <div className="flex w-[28%]  h-[300px] flex-col justify-center items-center p-3 hover:shadow-3xl hover:shadow-[#7077e45e] lg:w-[45%] full-width">
+    <div className="flex transition-all duration-300 w-[28%]  h-[300px] flex-col justify-center items-center p-3 hover:shadow-3xl hover:shadow-[#7077e45e] lg:w-[45%] full-width">
       <div className="glass-image">
         <img src={image} alt="" />
       </div>
