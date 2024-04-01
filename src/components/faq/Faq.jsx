@@ -25,14 +25,14 @@ const Faq = () => {
 
       <div className="flex mt-6 gap-8 xmd:gap-1 px-28 xl:px-0 flex-wrap justify-center items-start">
         <div className="w-[48%] xmd:w-full">
-          <Question />
-          <Question />
-          <Question />
+          <Question heading={"How can I know my level of knowledge?"} />
+          <Question heading={"Can I do it individually or only in a group?"} />
+          <Question heading={"What is the maximum group size?"} />
         </div>
         <div className="w-[48%] xmd:w-full">
-          <Question />
-          <Question />
-          <Question />
+          <Question heading={"Do I need to buy materials for lessons?"} />
+          <Question heading={"Are you adjusting to the student's schedule?"} />
+          <Question heading={"How the first lesson with teacher will be?"} />
         </div>
       </div>
     </div>
@@ -41,7 +41,7 @@ const Faq = () => {
 
 export default Faq;
 
-const Question = ({ }) => {
+const Question = ({ heading }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <div
@@ -50,19 +50,23 @@ const Question = ({ }) => {
     >
       <div
         onClick={() => setToggle(!toggle)}
-        className="flex justify-between items-center cursor-pointer"
+        className="flex justify-between sm:items-start items-center cursor-pointer gap-2"
       >
         <p className={`font-semibold `}>
-          How can I know my level of knowledge?
+          {heading}
         </p>
 
         {toggle ? (
-          <div className="sm:pt-[2px] flex justify-center text-lightBlueTow leading-[1px] items-center bg-white h-[20px] w-[20px] rounded-full">
-            -
+          <div>
+            <div className="sm:pt-[2px] sm:mt-1 flex justify-center text-lightBlueTow leading-[1px] items-center bg-white h-[20px] w-[20px] rounded-full">
+              -
+            </div>
           </div>
         ) : (
-          <div className="sm:pt-[2px] flex justify-center text-white leading-[1px] items-center bg-lightBlueTow h-[20px] w-[20px] rounded-full">
-            +
+          <div>
+            <div className="sm:pt-[2px] sm:mt-1 flex justify-center text-white leading-[1px] items-center bg-lightBlueTow h-[20px] w-[20px] rounded-full">
+              +
+            </div>
           </div>
         )}
       </div>

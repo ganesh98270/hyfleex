@@ -43,13 +43,13 @@ export default Values;
 
 const Card = ({ image, heading, para }) => {
   return (
-    <div className="flex transition-all duration-300 w-[28%] flex-col justify-center items-center p-3 pt-6 hover:shadow-3xl hover:shadow-[#7077e45e] lg:w-[45%] full-width rounded-3xl">
+    <div className="flex transition-all duration-300 w-[29%] flex-col justify-center items-center p-3 pt-6 hover:shadow-3xl hover:shadow-[#7077e45e] lg:w-[45%] full-width rounded-3xl">
       <div className="glass-image h-[60px]">
         <img src={image} alt="" className="w-full h-full" />
       </div>
 
       <div className="card-heading mt-10">
-        <p className="text-2xl font-semibold">{heading}</p>
+        <p className="text-2xl font-semibold xxsm:text-center">{heading}</p>
       </div>
 
       <div className="paragraph my-3 min-h-24">

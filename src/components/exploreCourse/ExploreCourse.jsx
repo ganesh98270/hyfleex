@@ -45,7 +45,7 @@ const ExploreCourse = () => {
                                 <button
                                     key={index}
                                     onClick={() => setActive(item.language)}
-                                    className={`flex items-center text-sm text-nowrap gap-1 border ${active === item.language
+                                    className={`flex items-center text-[0.82rem] font-semibold text-nowrap gap-1 border ${active === item.language
                                         ? "border-lightBlue boxshadow-down"
                                         : "border-greyBorder"
                                         } rounded-md px-3 py-1 hover:border-lightBlue hover-boxshadow-down`}
@@ -57,7 +57,7 @@ const ExploreCourse = () => {
                         </div>
 
                         <div className="table w-full mt-6 overflow-hidden">
-                            <table className="border w-full rounded-corners overflow-hidden">
+                            <table className="border w-[96.3%] lg:w-full rounded-corners overflow-hidden">
                                 <thead>
                                     <tr className="bg-lightPink">
                                         <td className="py-2 px-6 text-grey font-medium text-sm flex items-center gap-2">

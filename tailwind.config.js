@@ -54,7 +54,10 @@ export default {
         // => @media (max-width: 639px) { ... }
 
         'xsm': { 'max': '419px' },
-        // => @media (max-width: 639px) { ... }
+        // => @media (max-width: 419px) { ... }
+
+        'xxsm': { 'max': '374px' },
+        // => @media (max-width: 374px) { ... }
       },
 
     },
