@@ -1,4 +1,3 @@
-
 import ExploreCourse from "./components/exploreCourse/ExploreCourse";
 import MainSection from "./components/mainSection/MainSection";
 import NavBar from "./components/navbar/NavBar";
@@ -7,9 +6,7 @@ import Values from "./components/values/Values";
 
 import SliderContent from "./customComponents/SliderContent";
 
-
 const App = () => {
-
   return (
     <>
       <section className="relative m-2">
@@ -17,23 +14,20 @@ const App = () => {
           <div className="bg-ellipes pb-24">
             <NavBar />
             <MainSection />
+            <p>sdfsdfsdfsd</p>
           </div>
         </div>
 
         <SliderContent />
-
-      </section >
-
+      </section>
 
       <section>
         <Values />
       </section>
 
-
       <section>
         <ExploreCourse />
       </section>
-
     </>
   );
 };
