@@ -24,7 +24,7 @@ const ExploreCourse = () => {
                                 Our Courses
                             </p>
                             <img
-                                className="absolute top-[-9px] left-[72px]"
+                                className="absolute top-[-12px] left-[85px]"
                                 src={Rope}
                                 alt=""
                             />

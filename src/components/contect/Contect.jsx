@@ -1,8 +1,7 @@
-import React from "react";
 import { GrLocation } from "react-icons/gr";
 import Map from "../../assets/map.png";
-import { PiPhoneThin } from "react-icons/pi";
 import { MdOutlineEmail } from "react-icons/md";
+import { LiaPhoneSolid } from "react-icons/lia";
 
 const Contect = () => {
   return (
@@ -14,7 +13,7 @@ const Contect = () => {
       </div>
 
       <div className="heading">
-        <h3 className="text-[30px] text-center font-semibold">
+        <h3 className="text-[30px] text-center font-semibold  my-2">
           Contact Us Today!
         </h3>
 
@@ -27,7 +26,7 @@ const Contect = () => {
         </p>
       </div>
 
-      <div className="flex flex-wrap gap-16 xl:gap-10 mt-10 px-6 sm:px-0">
+      <div className="flex flex-wrap gap-16 xl:gap-10 mt-14 px-6 sm:px-0">
         <div className="border border-shado relative rounded-xl px-6 py-8 w-[47%] xmd:w-full">
           <div className="line"></div>
           <div className="input flex gap-3 flex-col mt-5">
@@ -105,7 +104,7 @@ const Contect = () => {
             <div>
               <div className="flex gap-3 items-center">
                 <span className="bg-[#CCD7F9] rounded p-1">
-                  <PiPhoneThin />
+                  <LiaPhoneSolid />
                 </span>
                 <span className="font-semibold">Phone number:</span>
               </div>

@@ -70,24 +70,47 @@ const Teachers = () => {
 
         <div className="mt-6 w-full">
           <Slider {...settings}>
+
+            <div>
+              <img className="h-full w-[93%] rounded-2xl" src={Retuja} alt="" />
+              <div className="flex flex-col justify-center items-center mt-4">
+                <h3 className="text-lg font-medium">Rutuja Hardas</h3>
+                <p className="text-sm text-grey font-medium">German</p>
+              </div>
+            </div>
+            <div>
+              <img className="h-full w-[93%] rounded-2xl" src={Sakshi} alt="" />
+              <div className="flex flex-col justify-center items-center mt-4">
+                <h3 className="text-lg font-medium">Sakshi Garge</h3>
+                <p className="text-sm text-grey font-medium">French</p>
+              </div>
+            </div>
+            <div>
+              <img className="h-full w-[93%] rounded-2xl" src={Sanket} alt="" />
+              <div className="flex flex-col justify-center items-center mt-4">
+                <h3 className="text-lg font-medium">Sanket parnerkar</h3>
+                <p className="text-sm text-grey font-medium">English & IELTs</p>
+              </div>
+            </div>
+            <div>
+              <img className="h-full w-[93%] rounded-2xl" src={Ketagi} alt="" />
+              <div className="flex flex-col justify-center items-center mt-4">
+                <h3 className="text-lg font-medium">ketaki Gorhe</h3>
+                <p className="text-sm text-grey font-medium">Spanish</p>
+              </div>
+            </div>
+
             <div>
               <img
                 className="h-full w-[93%] rounded-2xl"
                 src={Archana}
                 alt=""
               />
-            </div>
-            <div>
-              <img className="h-full w-[93%] rounded-2xl" src={Retuja} alt="" />
-            </div>
-            <div>
-              <img className="h-full w-[93%] rounded-2xl" src={Sakshi} alt="" />
-            </div>
-            <div>
-              <img className="h-full w-[93%] rounded-2xl" src={Sanket} alt="" />
-            </div>
-            <div>
-              <img className="h-full w-[93%] rounded-2xl" src={Ketagi} alt="" />
+
+              <div className="flex flex-col justify-center items-center mt-4">
+                <h3 className="text-lg font-medium">Archana wadekar</h3>
+                <p className="text-sm text-grey font-medium">Japanese</p>
+              </div>
             </div>
           </Slider>
         </div>

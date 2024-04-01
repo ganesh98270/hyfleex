@@ -1,12 +1,20 @@
 import React, { useState } from "react";
+import Rope from "../../assets/Vector 9.png";
 
 const Faq = () => {
   return (
     <div className="container mx-auto my-28">
-      <div className="gap-2">
-        <p className="text-lightGrey text-center font-kalam font-normal text-[20px]">
-          FAQs
-        </p>
+      <div className="flex relative justify-center">
+        <div className=" flex gap-2">
+          <p className="text-lightGrey text-center font-kalam font-normal text-[20px]">
+            FAQs
+          </p>
+          <img
+            className="absolute top-[-9px] left-1/2 translate-x-[-0%]"
+            src={Rope}
+            alt=""
+          />
+        </div>
       </div>
 
       <div className="heading">

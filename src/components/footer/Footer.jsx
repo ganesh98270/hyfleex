@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="bottom flex  px-28 py-2 lg:p-8 flex-wrap justify-between gap-6 sm:gap-2 bg-[#ADBBF4] w-full">
+        <div className="bottom flex  px-24 py-2 lg:p-8 flex-wrap justify-between gap-6 sm:gap-2 bg-[#ADBBF4] w-full">
           <p className="text-grey text-sm">WWW.hyfleex.com</p>
           <p className="text-grey text-sm">Designed By: yashwebdesign.com</p>
         </div>

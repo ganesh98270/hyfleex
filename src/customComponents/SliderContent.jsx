@@ -32,6 +32,9 @@ const SliderContent = () => {
     ],
   };
 
+
+
+
   return (
     <div className="mainslider absolute  xmd:static flex lg:flex-wrap justify-between lg:justify-center items-center left-[50%] translate-x-[-50%] xmd:translate-x-0 bottom-[-43px] lg:bottom-[-92px] xmd:w-full bg-lightBlueTow text-white rounded-2xl p-5 pe-8 xmd:p-2 xmd:gap-8">
       <div className="absolute lg:static flex flex-col justify-center items-center bg-white px-6 py-2 rounded-2xl left-32 xl:left-6 top-[-28px] border-2 border-lightBlue">
@@ -44,7 +47,7 @@ const SliderContent = () => {
         Achieve their goals
       </p>
 
-      <div className="w-[482px] md:w-[326px] full-width h-[144px] absolute lg:relative right-28 xl:right-[4.5em] right-zero top-[-106px] lg:top-[-35px] ">
+      <div className="w-[464px] md:w-[326px] full-width h-[144px] absolute lg:relative right-28 xl:right-[4.5em] right-zero top-[-137px] lg:top-[-35px] ">
         <Slider {...settings}>
           <Students Student={Student} />
           <Students Student={Student} />

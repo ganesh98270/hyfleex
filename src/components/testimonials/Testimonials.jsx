@@ -53,7 +53,7 @@ const Card = ({ letter, heading, para }) => {
           <p className="letter flex justify-center items-center text-white h-[50px] w-[50px] rounded-full bg-[#7077E4]">
             {letter}
           </p>
-          <h3 className="text-[18px] font-medium">{heading}</h3>
+          <h3 className="text-[16px] font-semibold">{heading}</h3>
         </div>
         <div className="image">
           <img className="h-[25px]" src={Colen} alt="" />
